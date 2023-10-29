@@ -1,6 +1,9 @@
-import HelloWorldVue from './HelloWorld.vue';
+import HelloWorld from './HelloWorld.vue';
 
 export default {
-    component: HelloWorldVue,
-    title: 'HelloWorldVue',
+    component: HelloWorld,
+    title: 'HelloWorld',
+    tags: ['autodocs'],
 };
+
+export const Default = {};
