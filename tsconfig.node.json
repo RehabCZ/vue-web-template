@@ -3,8 +3,10 @@
         "composite": true,
         "skipLibCheck": true,
         "module": "ESNext",
-        "moduleResolution": "bundler",
-        "allowSyntheticDefaultImports": true
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "types": ["jest", "node", "@types/jest"]
     },
     "include": ["vite.config.ts"]
 }

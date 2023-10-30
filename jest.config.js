@@ -1,6 +1,11 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
-module.exports = {
-    rootDir: 'app/tests',
+export default {
+    rootDir: 'tests',
     preset: 'ts-jest',
     testEnvironment: 'node',
+    globals: {
+        'ts-jest': {
+            useESM: true,
+        },
+    },
 };
