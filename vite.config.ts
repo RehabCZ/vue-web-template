@@ -7,4 +7,7 @@ export default defineConfig({
     root: '.',
     base: '/build/',
     publicDir: false,
+    server: {
+        port: 3000,
+    },
 });
